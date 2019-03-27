@@ -1,0 +1,115 @@
+# depslib dependency file v1.0
+1482855553 source:c:\documents and settings\regina\pulpit\eh\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	<conio.h>
+
+1484435175 source:g:\nowy folder\eh\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<time.h>
+	<conio.h>
+
+1484476955 source:e:\projekty\eh\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"console.h"
+
+1484476950 source:e:\projekty\eh\console.c
+	"console.h"
+	"gameTable.h"
+
+1484475508 source:e:\projekty\eh\gameengine.c
+	<time.h>
+
+1484476092 source:e:\projekty\eh\gametable.c
+
+1484476224 e:\projekty\eh\config.h
+
+1484475498 e:\projekty\eh\gameengine.h
+	"gameTable.h"
+
+1484476249 e:\projekty\eh\gametable.h
+	"config.h"
+
+1484476966 e:\projekty\eh\console.h
+	<windows.h>
+	<conio.h>
+
+1484475458 e:\projekty\eh\main.h
+
+1484476950 source:j:\eh\console.c
+	"console.h"
+	"gameTable.h"
+
+1484476966 j:\eh\console.h
+	<windows.h>
+	<conio.h>
+
+1484746436 j:\eh\gametable.h
+	"config.h"
+
+1484745879 j:\eh\config.h
+
+1484748304 source:j:\eh\gametable.c
+	"gameTable.h"
+	"console.h"
+
+1484748175 source:j:\eh\main.c
+	"console.h"
+	"gameTable.h"
+	"gameEngine.h"
+
+1484748193 source:j:\eh\gameengine.c
+	"gameEngine.h"
+
+1484748084 j:\eh\gameengine.h
+	<time.h>
+	"config.h"
+	"gameTable.h"
+
+1484993174 source:e:\eh\console.c
+	"console.h"
+	"gameTable.h"
+
+1484993229 e:\eh\console.h
+	<windows.h>
+	<conio.h>
+
+1485010670 e:\eh\gametable.h
+	"config.h"
+
+1484940390 e:\eh\config.h
+
+1485018342 source:e:\eh\gameengine.c
+	"gameEngine.h"
+
+1485017310 e:\eh\gameengine.h
+	<time.h>
+	<windows.h>
+	"config.h"
+	"gameTable.h"
+
+1485010721 source:e:\eh\main.c
+	"console.h"
+	"gameTable.h"
+	"gameEngine.h"
+
+1485011830 source:e:\eh\gametable.c
+	"gameTable.h"
+	"console.h"
+
+1484920645 source:e:\eh\window.c
+	"window.h"
+
+1484919840 e:\eh\window.h
+	"config.h"
+	"console.h"
+

@@ -1,0 +1,42 @@
+#include "console.h"
+#include "gameTable.h"
+#include "gameEngine.h"
+
+int main(){
+    srand(time(NULL));
+
+    initScreen();
+
+    GameBoard gameBoard;
+    Player player;
+    Minotaur minotaur;
+    Key key;
+    initGame(&gameBoard, &player, &minotaur);
+
+    //Menu
+    drawWindow(1,1,MENUWIDTH,MENUHEIGHT,0x3f,"Labirynth X");
+    while(1){
+        int position=0;
+        char z;
+
+        if(kbhit()){
+            z=getch();
+            putCharXY(0,MENUHEIGHT+2);
+        }
+
+        setConsole(4,3);
+        printf("> Nowa gra");
+        setConsole(4,5);
+        printf("Pomoc");
+        setConsole(4,7);
+        printf("Wyjscie");
+        setConsole(0,MENUHEIGHT+1);
+
+    }
+    //createMaze(&gameBoard, &player, &minotaur);
+    //gameEngine(&gameBoard, &player, &minotaur, &key);
+
+    //Koniec Menu
+    setActiveColor(0x0f);
+    return 0;
+}
